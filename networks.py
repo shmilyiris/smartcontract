@@ -9,7 +9,7 @@ from torch.nn.parameter import Parameter
 from layers import DecoderLayer, EncoderLayer
 import torch.nn.utils.prune as prune
 import torch.nn.qat
-import quantize_helper
+# import quantize_helper
 
 def get_non_pad_mask(seq):
     assert seq.dim() == 2

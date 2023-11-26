@@ -56,7 +56,7 @@ class Dataset(object):
         :param asm_train_path: the file path stores asm basic blocks
         :param data_path: the output pkl file
         """
-        self.dataset_dir = os.path.abspath(os.path.join("E:/", dataset_dir))
+        self.dataset_dir = os.path.abspath(os.path.join(".", dataset_dir))
         self.opt_source_dir = os.path.join(self.dataset_dir, opt_source_dir)
         self.asm_source_dir = os.path.join(self.dataset_dir, asm_source_dir)
         self.opt_vocab_path = os.path.join(self.dataset_dir, opt_vocab_path)
